@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header,section,footer,nav{
+	display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#head_spine .covercards li, #head_spine .navbar li {
+	float: left;
+	font-size: 18px;
+	font-weight: 600;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#head_spine .navbar li {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#head_spine .covercards li .wrap, #head_spine .navbar li .wrap {
+	margin: 10px 4px 0 17px;
+	width: 120px;
+    border-right: 1px solid #141414;
+    color: white;
+    height: 46px;
+}
+
+#head_spine .covercards li:last-child .wrap {
+	border: 0;
+}
+
+#head_spine .navbar li .nv_item {
+	margin: -8px -41px 0 17px;
+	width: 120px;
+    color: white;
+}
+
+body{
+	background: url(background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#main_head .cntnr{
+	background-color: #FFFFFF;
+	position: relative;
+    width: 1500px;
+    height: 100px;
+    margin: 0 auto;
+    font-family: 'ars-maquette-web',sans-serif;
+    font-weight: bold;
+}
+
+#head_spine .covercards{
+	display: block;
+	background-color: rgb(32, 32, 32);
+	border-bottom: 1px solid #141414;
+	height: 70px;
+	width: 1368px;
+	float: left;
+}
+
+#head_spine .navbar {
+	display: block;
+	background-color: rgb(32, 32, 32);
+	height: 30px;
+	width: 1368px;
+	float: left;
+}
+
+.logo_box{
+	position: relative;
+	width: 132px;
+	height: 100px;
+	float: left;
+}
+
+.logo{
+	width: 50%;
+	margin: 0 auto;
+}
