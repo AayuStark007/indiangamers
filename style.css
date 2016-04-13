@@ -36,7 +36,13 @@ ul {
     color: white;
     height: 46px;
 }
-
+ .wrap:hover
+{color:blue;
+background-color:red;}
+.wrap:active
+{color:white;
+background-color:yellow;}
+.nv_item:hover{background-color:red;}
 #head_spine .covercards li:last-child .wrap {
 	border: 0;
 }
